@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset='UTF-8'/>
+    <title>CALCULATOR</title>
+    <link rel='stylesheet' href='styles.css'/>
+  </head>
+  <body>
+    <div id="memory" cont="0" op="" bool-op="false" pre-val="false" last-click-op="false" last-click-eq="false"></div>
+    <div class="calc">
+      <div class="screen">
+        <div id="result">0</div>
+      </div>
+        <div class="down-panel">
+          <div class="numbers">
+            <div class="row1">
+              <button id="n7">7</button>
+              <button id="n8">8</button>
+              <button id="n9">9</button>
+            </div>
+            <div class="row2">
+              <button id="n4">4</button>
+              <button id="n5">5</button>
+              <button id="n6">6</button>
+            </div>
+            <div class="row3">
+              <button id="n1">1</button>
+              <button id="n2">2</button>
+              <button id="n3">3</button>
+            </div>
+            <div class="row4">
+              <button id="clear">C</button>
+              <button id="n0">0</button>
+              <button id="ndot">.</button>
+            </div>
+          </div>
+          <div class="ops">
+            <div class="sep">
+              <button id="add">+</button>
+            </div>
+            <div class="sep">
+              <button id="sub">-</button>
+            </div>
+            <div class="sep">
+              <button id="div">÷</button>
+            </div>
+            <div class="sep">
+              <button id="mul">×</button>
+            </div>
+          </div>
+        </div>
+        <div class="equal">
+          <button id="equal">=</button>
+        </div>
+      </div>
+      <script src="script.js"></script>
+  </body>
+</html>
